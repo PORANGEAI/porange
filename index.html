@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>PORANGEAI</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+<body>
+
+
+    <div id="welcomeScreen">
+
+        <div class="white-orb"></div>
+
+        <h1>
+            WELCOME TO PORANGEAI
+        </h1>
+
+        <button id="enterButton">
+            ENTER PORANGEAI
+        </button>
+
+    </div>
+
+
+    <div
+        id="app"
+        class="hidden"
+    >
+
+        <header>
+
+            <h2>
+                PORANGEAI
+            </h2>
+
+
+            <button
+                id="newChatButton"
+            >
+                + Add New Chat
+            </button>
+
+
+            <button
+                id="robloxConnectButton"
+            >
+                CONNECT ROBLOX STUDIO
+            </button>
+
+
+            <div
+                id="robloxStatus"
+            >
+                🔴 Roblox Studio Not Connected
+            </div>
+
+        </header>
+
+
+        <main>
+
+
+            <aside
+                id="chatList"
+            >
+
+                <div
+                    class="chat-item active"
+                >
+                    New Chat
+                </div>
+
+            </aside>
+
+
+            <section
+                class="chat-area"
+            >
+
+
+                <div
+                    id="messages"
+                ></div>
+
+
+                <div
+                    class="input-area"
+                >
+
+
+                    <textarea
+                        id="messageInput"
+                        placeholder="CHAT WITH PORANGEAI!"
+                    ></textarea>
+
+
+                    <div
+                        class="input-buttons"
+                    >
+
+
+                        <label
+                            class="upload-button"
+                        >
+
+                            📷
+
+                            <input
+                                type="file"
+                                id="imageInput"
+                                accept="image/png,image/jpeg"
+                                hidden
+                            >
+
+                        </label>
+
+
+                        <button
+                            id="sendButton"
+                        >
+                            SEND
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+
+    <script
+        src="script.js"
+    ></script>
+
+
+</body>
+
+</html>
